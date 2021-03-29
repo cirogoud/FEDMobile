@@ -90,6 +90,7 @@ section article img {
     color: white;
     font-size: 2.2em;
     margin-top: .5em;
+    display: inline-block;
 }
 
 #helft p {
@@ -98,7 +99,7 @@ section article img {
 }
 
 .helft {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 #helft #kleinrood {
