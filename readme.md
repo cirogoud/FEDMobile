@@ -38,7 +38,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+- !important vermijden! Iets specifiek benoemen om de styling toe te passen
+- % gebruiken ipv em bij bovenste sectie
+- Linkjes 100% grootte geven in t grid 
 
 
 
