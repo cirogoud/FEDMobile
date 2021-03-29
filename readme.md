@@ -1,7 +1,10 @@
 # Procesverslag
 **Auteur:** Ciro Goudswaard
 
-https://cirogoud.github.io/FED-2021-HER/
+Desktop: https://cirogoud.github.io/FED-2021-HER/
+Mobiel: https://cirogoud.github.io/FEDMobile/
+
+Moet nog samen gevoegd worden!
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
