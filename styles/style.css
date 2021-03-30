@@ -9,9 +9,24 @@ body {
 
 p {
     font-size: .8em;
+    margin: 1em;
+}
+
+button {
+    background-color: white;
+    border: none;
 }
 
 /* Nav */
+
+header nav ul li a {
+    display: none;
+}
+
+.svg {
+    fill: white;
+    margin: 0em .5em;
+}
 
 header nav ul img {
     margin-top: 1em;
@@ -38,49 +53,45 @@ header nav ul li a {
 
 /* 1e section - (Wo)men */
 
+div {
+    display: relative;
+}
+
 section article img {
     width: 100vw;
 }
 
-#Women1 {
+#H3Women {
     font-size: 2em;
     color: white;
     position: absolute;
-    left: 5%;
-    top: 37%;
+    left: 1em;
+    top: 7em;
 }
 
-#WomenBtn1 {
+#BtnWomen {
     background: white;
-    border: none;
-    padding: .5em;
     position: absolute;
-    left: 5%;
-    top: 47%;
+    left: 2em;
+    top: 19em;
 }
 
-#Men1 {
+#H3Men {
     font-size: 2em;
     color: white;
     position: absolute;
-    left: 5%;
-    top: 77%;
+    left: 1em;
+    top: 17em;
 }
 
-#MenBtn1 {
+#BtnMen {
     background: white;
-    border: none;
-    padding: .5em;
     position: absolute;
-    left: 5%;
-    top: 87%;
+    left: 2em;
+    top: 39em;
 }
 
 /* 2e section - Banner */
-
-.h3black {
-    margin: 0;
-}
 
 #helft {
     background-color: black;
@@ -135,65 +146,9 @@ h3 {
 
 /* 4e section - Grid */
 
-section h3 ul {
-    display: block;
-    width: 50%;
-}
-
-#CottonClub {
-    background-image: url(../images/Cotton\ Club.jpg);
-    height: 30.9375em;
-    width: 23.875em;
-}
-
-#SevenSisters {
-    background-image: url(../images/Seven\ Sisters.jpg);
-    height: 30.9375em;
-    width: 23.875em;
-}
-
-#MeltingStockholm {
-    background-image: url(../images/Melting\ Stockholm.jpg);
-    height: 30.9375em;
-    width: 23.875em;
-}
-
-#Revelation {
-    background-image: url(../images/Revelation.jpg);
-    height: 30.9375em;
-    width: 23.875em;
-}
-
-#BienBleu {
-    background-image: url(../images/Bien\ bleu.jpg);
-    height: 30.9375em;
-    width: 23.875em;
-}
-
 #Hallinger {
-    background-image: url(../images/Hallinger.jpg);
-    height: 30.9375em;
-    width: 47.875em;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-#LostMinds {
-    background-image: url(../images/Lost\ Minds.jpg);
-    height: 30.9375em;
-    width: 23.875em;
-}
-
-#DailyAesthetikz {
-    background-image: url(../images/Daily\ Aesthetikz.jpg);
-    height: 30.9375em;
-    width: 23.875em;
-}
-
-#AntiBlue {
-    background-image: url(../images/Anti\ Blue.jpg);
-    height: 30.9375em;
-    width: 23.875em;
+    height: 100%;
+    width: 100%;
 }
 
 /* 5e section - Banner */
@@ -209,4 +164,126 @@ textarea {
     border: none;
     border-bottom: 1px solid grey;
     width: 15em;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #202020;
+    color: white;
+}
+footer ul:first-of-type {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer ul:last-of-type {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+}
+
+
+
+
+/* Detail */
+
+#LightGreen {
+    background-color: #D0DEC9;
+    color: white;
+    padding: 1em;
+    margin-bottom: .5em;
+}
+
+#LightGreen h3 {
+    margin: 0;
+}
+
+#LightGreen p {
+    margin: 0;
+}
+
+#DarkGreen {
+    background-color: #69967B;
+    color: white;
+    padding: 1em;
+    margin-bottom: .5em;
+}
+
+#DarkGreen h3 {
+    margin: 0;
+}
+
+#DarkGreen p {
+    margin: 0;
+}
+
+#Banner button {
+    position: absolute;
+    left: 8em;
+    top: 14em;
+}
+
+#Truien button {
+    position: absolute;
+    left: 9.5em;
+    top: 47em;
+}
+
+#Truien h3 {
+    position: absolute;
+    left: 4.5em;
+    top: 21em;
+    color: white;
+}
+
+#Allitems button {
+    position: absolute;
+    left: 9.5em;
+    top: 75em;
+}
+
+#Allitems h3 {
+    position: absolute;
+    left: 4em;
+    top: 35em;
+    color: white;
+}
+
+#Sweaters button {
+    position: absolute;
+    left: 9.5em;
+    top: 109em;
+}
+
+#Sweaters h3 {
+    position: absolute;
+    left: 3.8em;
+    top: 52em;
+    color: white;
+}
+
+#Tshirts button {
+    position: absolute;
+    left: 9.5em;
+    top: 136em;
+}
+
+#Tshirts h3 {
+    position: absolute;
+    left: 4.3em;
+    top: 65.5em;
+    color: white;
 }

@@ -17,6 +17,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. https://www.w3schools.com/howto/howto_css_image_text.asp
 5. https://www.w3schools.com/tags/ref_pxtoemconversion.asp
 6. https://css-tricks.com/almanac/properties/o/overflow/
+7. https://css-tricks.com/snippets/svg/svg-hamburger-menu/
+8. https://iconmonstr.com/
 
 
 
@@ -32,8 +34,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
+- Div om bovenste 2 heen, die absolute gepositioneerd (h3 en button)
+- Div position relative geven bij bovenste sectie
+- Media screen width gebruiken
+- JS toevoegen
+- Footer maken
 
 
 ## Voortgang 2 (week 5)
@@ -41,7 +46,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 - !important vermijden! Iets specifiek benoemen om de styling toe te passen
 - % gebruiken ipv em bij bovenste sectie
 - Linkjes 100% grootte geven in t grid 
-
 
 
 ## Voortgang 1 (week 3)
