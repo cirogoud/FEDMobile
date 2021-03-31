@@ -19,6 +19,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 6. https://css-tricks.com/almanac/properties/o/overflow/
 7. https://css-tricks.com/snippets/svg/svg-hamburger-menu/
 8. https://iconmonstr.com/
+9. https://www.w3schools.com/html/html_tables.asp
 
 
 
