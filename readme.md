@@ -28,7 +28,10 @@ De opbouw van de html verliep in het begin stroef omdat ik er weer even in moest
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="./images/SSindexDes.jpg" alt="">
+<img src="./images/SSindexMob.jpg" alt="">
+<img src="./images/SSdetailDes.jpg" alt="">
+<img src="./images/SSdetailMob.jpg" alt="">
 
 ## Voortgang 3 (week 6)
 
