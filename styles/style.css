@@ -38,7 +38,6 @@
 body {
     margin: 0;
     text-align: center;
-    position: relative;
 }
 
 p {
@@ -197,6 +196,10 @@ h3 {
     margin-top: 2em;
 }
 
+.left {
+    color: grey;
+}
+
 textarea {
     margin-top: 1em;
     text-align: center;
@@ -236,7 +239,7 @@ footer ul li a {
     font-size: .8em;
 }
 
-table {
+#footerLinks {
     display: none;
 }
 
@@ -340,21 +343,12 @@ table {
         display: none;
     }
 
-    table {
-        margin: 0em 5em;
-        text-align: left;
-        border-spacing: 1em;
-    }
-
     p {
         text-align: center;
         font-size: 1em;
         margin: 1em 5em;
     }
 
-    td a {
-        margin-right: 1em;
-    }
     /* Nav */
 
     .svg {
@@ -468,10 +462,7 @@ table {
 
     .left {
         text-align: left;
-        color: grey;
     }
-
-
 
     /* Detail */
 
@@ -557,7 +548,27 @@ table {
         width: 100%;
     }
 
-    table {
+    /* table {
         display: block;
+    } */
+
+    #footerLinks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #footerLinks ul {
+        display: block;
+        text-align: left;
+        margin: 0em 5em;
+    }
+
+    #footerLinks ul li {
+        margin-top: 1em;
+    }
+
+    .socials {
+        display: inline;
+        margin-right: 1em;
     }
 }
