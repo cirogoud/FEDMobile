@@ -1,8 +1,7 @@
 # Procesverslag
 **Auteur:** Ciro Goudswaard
 
-Desktop: https://cirogoud.github.io/FED-2021-HER/
-Mobiel: https://cirogoud.github.io/FEDMobile/
+https://cirogoud.github.io/FEDMobile/
 
 Moet nog samen gevoegd worden!
 
@@ -25,13 +24,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+De opbouw van de html verliep in het begin stroef omdat ik er weer even in moest komen maar naderhand ging het naar mijn mening vrij soepel. De Css was ook het een en ander uitvogelen maar de Javascript had ik verreweg het meeste moeite mee. 
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
-
 
 ## Voortgang 3 (week 6)
 
@@ -62,7 +59,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 - Het scheiden van de navigatie elementen vind ik aardig lastig
-- Responsive krijgen is nog een werkje
+- Juiste positionering vind ik pittig maar dat is een kwestie van tijd
 - Grid images klikbaar krijgen, heb ze als een li erin staan
 
 **Screenshot(s):**
@@ -96,7 +93,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** Blauw
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** surface plane
 
 **Je opdracht:** www.thesting.com 
 
