@@ -2,6 +2,7 @@
     font: 400 1em / 1.5 Apercu, Arial, Helvetica, sans-serif;
 }
 
+/* Menu */
 
 .offCanvas {
     position: absolute;
@@ -31,6 +32,8 @@
     display: block;
     margin-top: 2em;
 }
+
+/* Algemeen */
 
 body {
     margin: 0;
@@ -217,6 +220,7 @@ footer ul:first-of-type {
 }
 
 footer ul:last-of-type {
+    margin-top: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
@@ -232,7 +236,9 @@ footer ul li a {
     font-size: .8em;
 }
 
-
+table {
+    display: none;
+}
 
 
 /* Detail */
@@ -549,5 +555,9 @@ footer ul li a {
 
     .split img {
         width: 100%;
+    }
+
+    table {
+        display: block;
     }
 }
