@@ -17,6 +17,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 7. https://css-tricks.com/snippets/svg/svg-hamburger-menu/
 8. https://iconmonstr.com/
 9. https://www.w3schools.com/html/html_tables.asp
+10. https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
 
 
 
@@ -30,6 +31,16 @@ De opbouw van de html verliep in het begin stroef omdat ik er weer even in moest
 <img src="./images/SSindexMob.jpg" alt="">
 <img src="./images/SSdetailDes.jpg" alt="">
 <img src="./images/SSdetailMob.jpg" alt="">
+
+
+## Feedback beoordeling
+
+- Div moet position absolute hebben, btn en h3 niet
+- #BrandGrid auto fit geven (https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
+- h3 ipv H3 gebruiken
+
+- Extra: Footer verbeteren
+
 
 ## Voortgang 3 (week 6)
 

@@ -92,42 +92,31 @@ header nav ul li a {
 
 /* 1e section - (Wo)men */
 
-div {
-    display: relative;
+.absolute {
+    position: absolute;
 }
 
 section article img {
     width: 100vw;
 }
 
-#H3Women {
+.absolute h3 {
     font-size: 2em;
     color: white;
-    position: absolute;
+    position: relative;
     left: 1em;
-    top: 7em;
+    bottom: 4.5em;
 }
 
-#BtnWomen {
+.absolute button {
     background: white;
-    position: absolute;
-    left: 2em;
-    top: 19em;
-}
-
-#H3Men {
-    font-size: 2em;
-    color: white;
-    position: absolute;
+    position: relative;
     left: 1em;
-    top: 17em;
+    bottom: 11em;
 }
 
-#BtnMen {
-    background: white;
-    position: absolute;
-    left: 2em;
-    top: 39em;
+#left {
+    left: 2.5em;
 }
 
 /* 2e section - Banner */
@@ -190,6 +179,15 @@ h3 {
     width: 100%;
 }
 
+#BrandGrid {
+    display: grid;
+}
+
+/* ????? */
+#BrandGrid li  {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
 /* 5e section - Banner */
 
 #TheStingBanner {
@@ -244,21 +242,14 @@ footer ul li a {
 }
 
 
-/* Detail */
+
+/* Detail pagina */
 
 #LightGreen {
     background-color: #D0DEC9;
     color: white;
     padding: 1em;
     margin-bottom: .5em;
-}
-
-#LightGreen h3 {
-    margin: 0;
-}
-
-#LightGreen p {
-    margin: 0;
 }
 
 #DarkGreen {
@@ -268,70 +259,34 @@ footer ul li a {
     margin-bottom: .5em;
 }
 
-#DarkGreen h3 {
-    margin: 0;
-}
-
+#LightGreen h3,
+#LightGreen p,
+#DarkGreen h3,
 #DarkGreen p {
     margin: 0;
 }
 
-#Banner button {
+.absoluteDetail {
     position: absolute;
+}
+
+.absoluteDetail #Detail1 {
     left: 8em;
-    top: 14em;
+    bottom: 3em;
 }
-
-#Truien button {
-    position: absolute;
-    left: 9.5em;
-    top: 47em;
-}
-
-#Truien h3 {
-    position: absolute;
-    left: 4.5em;
-    top: 21em;
-    color: white;
-}
-
-#Allitems button {
-    position: absolute;
-    left: 9.5em;
-    top: 75em;
-}
-
-#Allitems h3 {
-    position: absolute;
+.absoluteDetail h3 {
+    margin: 0;
+    position: relative;
     left: 4em;
-    top: 35em;
+    bottom: 4em;
     color: white;
 }
 
-#Sweaters button {
-    position: absolute;
-    left: 9.5em;
-    top: 109em;
-}
-
-#Sweaters h3 {
-    position: absolute;
-    left: 3.8em;
-    top: 52em;
-    color: white;
-}
-
-#Tshirts button {
-    position: absolute;
-    left: 9.5em;
-    top: 136em;
-}
-
-#Tshirts h3 {
-    position: absolute;
-    left: 4.3em;
-    top: 65.5em;
-    color: white;
+.absoluteDetail button {
+    margin: 0;
+    position: relative;
+    left: 8em;
+    bottom: 7em;
 }
 
 
@@ -395,42 +350,11 @@ footer ul li a {
         grid-template-columns: 1fr 1fr;
         grid-gap: .2em;
         margin-bottom: .5em;
-        transition: 3s;
     }
 
     section:first-of-type article img {
         height: 100%;
         width: 100%;
-    }
-
-    #H3Women {
-        font-size: 2em;
-        color: white;
-        position: absolute;
-        left: 3em;
-        top: 20em;
-    }
-    
-    #BtnWomen {
-        background: white;
-        position: absolute;
-        left: 6em;
-        top: 46em;
-    }
-    
-    #H3Men {
-        font-size: 2em;
-        color: white;
-        position: absolute;
-        left: 34em;
-        top: 20em;
-    }
-    
-    #BtnMen {
-        background: white;
-        position: absolute;
-        left: 68em;
-        top: 46em;
     }
 
     /* 2e sectie - Insta */
@@ -451,7 +375,7 @@ footer ul li a {
 
     #BrandGrid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat( auto-fit, minmax(20em, 1fr) );
         grid-gap: 0.1em;
     }
 
@@ -464,73 +388,26 @@ footer ul li a {
         text-align: left;
     }
 
-    /* Detail */
 
-    #Banner button {
-        position: absolute;
-        left: 54.5em;
-        top: 64em;
-        padding: .7em 2em;
-    }
+
+    /* Detail */
     
-    #Truien button {
-        position: absolute;
-        left: 25.5em;
-        top: 140em;
-        padding: .5em 1em;
+    .absoluteDetail #Detail1 {
+        left: 55em;
+        bottom: 9em;
     }
-    
-    #Truien h3 {
-        position: absolute;
-        left: 8em;
-        top: 44em;
+    .absoluteDetail h3 {
+        position: relative;
+        left: 14em;
+        bottom: 7em;
         color: white;
-        font-size: 3em;
     }
     
-    #Allitems button {
-        position: absolute;
-        left: 87em;
-        top: 140em;
-        padding: .5em 1em;
-    }
-    
-    #Allitems h3 {
-        position: absolute;
+    .absoluteDetail button {
+        padding: .5em 1.5em;
+        position: relative;
         left: 28em;
-        top: 44em;
-        color: white;
-        font-size: 3em;
-    }
-    
-    #Sweaters button {
-        position: absolute;
-        left: 25.5em;
-        top: 218em;
-        padding: .5em 1em;
-    }
-    
-    #Sweaters h3 {
-        position: absolute;
-        left: 7.5em;
-        top: 70em;
-        color: white;
-        font-size: 3em;
-    }
-    
-    #Tshirts button {
-        position: absolute;
-        left: 87em;
-        top: 218em;
-        padding: .5em 1em;
-    }
-    
-    #Tshirts h3 {
-        position: absolute;
-        left: 28.2em;
-        top: 70em;
-        color: white;
-        font-size: 3em;
+        bottom: 14em;
     }
 
     #LightGreen,
@@ -546,13 +423,15 @@ footer ul li a {
 
     .split img {
         width: 100%;
-    }
+    } 
+
 
     /* Footer */
 
     #footerLinks {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 1em 9em;
     }
 
     #footerLinks ul {
@@ -568,5 +447,20 @@ footer ul li a {
     .socials {
         display: inline;
         margin-right: 1em;
+    }
+
+    #drie ul {
+        display: inline-flex;
+        margin-right: 5em;
+    }
+
+    #drie ul li {
+        margin-right: 3em;
+    }
+
+    #rechten {
+        margin: 0;
+        font-size: .7em;
+        display: inline;
     }
 }
