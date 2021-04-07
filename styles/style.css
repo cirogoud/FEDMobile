@@ -56,6 +56,10 @@ button:hover {
     transform: rotateX(25deg);
 }
 
+article {
+    position: relative;
+}
+
 /* Nav */
 
 header nav ul li a {
@@ -92,8 +96,14 @@ header nav ul li a {
 
 /* 1e section - (Wo)men */
 
+#First article {
+    position: relative;
+}
 .absolute {
     position: absolute;
+    bottom: 2em;
+    left: 2em;
+    text-align: left;
 }
 
 section article img {
@@ -103,16 +113,11 @@ section article img {
 .absolute h3 {
     font-size: 2em;
     color: white;
-    position: relative;
-    left: 1em;
-    bottom: 4.5em;
+    margin: 0;
 }
 
 .absolute button {
     background: white;
-    position: relative;
-    left: 1em;
-    bottom: 11em;
 }
 
 #left {
@@ -162,8 +167,9 @@ h3 {
     display: flex;
     overflow: hidden;
     overflow-x: scroll;
-    margin: 1em;
+    margin: 1em auto;
     grid-gap: 1em;
+    width: 80%;
 }
 
 #instagram button {
@@ -181,11 +187,7 @@ h3 {
 
 #BrandGrid {
     display: grid;
-}
-
-/* ????? */
-#BrandGrid li  {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
 }
 
 /* 5e section - Banner */
@@ -198,7 +200,7 @@ h3 {
     color: grey;
 }
 
-textarea {
+input {
     margin-top: 1em;
     text-align: center;
     color: lightgrey;
@@ -268,25 +270,14 @@ footer ul li a {
 
 .absoluteDetail {
     position: absolute;
+    bottom: 1.5em;
+    left: 0;
+    right: 0;
 }
 
-.absoluteDetail #Detail1 {
-    left: 8em;
-    bottom: 3em;
-}
 .absoluteDetail h3 {
-    margin: 0;
-    position: relative;
-    left: 4em;
-    bottom: 4em;
     color: white;
-}
-
-.absoluteDetail button {
     margin: 0;
-    position: relative;
-    left: 8em;
-    bottom: 7em;
 }
 
 
@@ -294,6 +285,29 @@ footer ul li a {
 
 @media only screen and (min-width: 600px) {
 
+
+
+
+/* * {
+
+
+    background:
+    #000
+    !important;
+    
+    
+    color:
+    #0f0
+    !important;
+    
+    
+    outline: solid
+    #f00
+    1px
+    !important;
+    
+    
+    } */
     .offCanvas {
         display: none;
     }
@@ -361,21 +375,17 @@ footer ul li a {
 
     #instagram ul {
         position: relative;
-        left: 21.5em;
         text-align: center;
     }
 
-    #instagram img {
-        height: 20em;
-        width: 16em;
-        margin: 1em;
+    #instagram ul img {
+        width: 100%;
     }
 
     /* 4e sectie - Grid */
 
     #BrandGrid {
         display: grid;
-        grid-template-columns: repeat( auto-fit, minmax(20em, 1fr) );
         grid-gap: 0.1em;
     }
 
@@ -389,25 +399,14 @@ footer ul li a {
     }
 
 
-
     /* Detail */
-    
-    .absoluteDetail #Detail1 {
-        left: 55em;
-        bottom: 9em;
-    }
-    .absoluteDetail h3 {
-        position: relative;
-        left: 14em;
+
+    .absoluteDetail {
         bottom: 7em;
-        color: white;
     }
-    
+
     .absoluteDetail button {
-        padding: .5em 1.5em;
-        position: relative;
-        left: 28em;
-        bottom: 14em;
+        padding: .5em 1em;
     }
 
     #LightGreen,
@@ -431,13 +430,12 @@ footer ul li a {
     #footerLinks {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 1em 9em;
     }
 
     #footerLinks ul {
         display: block;
         text-align: left;
-        margin: 0em 5em;
+        margin: 0em 3em;
     }
 
     #footerLinks ul li {
