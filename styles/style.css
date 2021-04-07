@@ -285,29 +285,6 @@ footer ul li a {
 
 @media only screen and (min-width: 600px) {
 
-
-
-
-/* * {
-
-
-    background:
-    #000
-    !important;
-    
-    
-    color:
-    #0f0
-    !important;
-    
-    
-    outline: solid
-    #f00
-    1px
-    !important;
-    
-    
-    } */
     .offCanvas {
         display: none;
     }
@@ -376,6 +353,7 @@ footer ul li a {
     #instagram ul {
         position: relative;
         text-align: center;
+        width: 50%;
     }
 
     #instagram ul img {
